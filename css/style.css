@@ -2,8 +2,13 @@
 /* navbar
 ==================================================*/
 .navbar-default {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     padding: 15px 100px;
+}
+
+.navbar-toggle {
+    font-size: 1.25rem;
+    margin-right: -50px;
 }
 
 .navbar-brand {
@@ -11,11 +16,48 @@
     margin-left: -50px;
 }
 
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #140742;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #140742;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #140742;
+}
+
 .fixed-top {
     position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
 /* section main
@@ -31,8 +73,8 @@
     position: relative; 
 }
 
-.bg-primary {
-    background: #140742;
+.bg-area {
+    background-color: #140742;
 }
 
 #apresenta {
