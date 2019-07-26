@@ -6,41 +6,9 @@
     padding: 15px 100px;
 }
 
-.navbar-toggle {
-    font-size: 1.25rem;
-    margin-right: -50px;
-}
-
 .navbar-brand {
     padding-top: 0px;
     margin-left: -50px;
-}
-
-.navbar-collapse {
-    text-align: center;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: rgb(255, 255, 255);
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #140742;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #140742;
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #140742;
 }
 
 .fixed-top {
