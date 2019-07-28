@@ -1,108 +1,63 @@
 
 /* navbar
 ==================================================*/
-.navbar-default {
-    background-color: rgb(255, 255, 255);
-    padding: 15px 100px;
-}
-
-.navbar-toggle {
-    font-size: 1.25rem;
-    margin-right: -50px;
-}
-
-.navbar-brand {
-    padding-top: 0px;
-    margin-left: -50px;
-}
-
-.navbar-collapse {
+.navbar-nav .nav-link {
     text-align: center;
 }
 
-.navbar-default .navbar-collapse {
-    border-color: rgb(255, 255, 255);
+.colornav {
+    background-color: rgb(255, 255, 255);
 }
 
-.navbar-default .navbar-nav>li>a {
+#texto_nav1 {
     color: #140742;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+#texto_nav2 {
+    color: #140742;
+}
+
+#nav_botao .navbar-toggler {
     background-color: #140742;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #140742;
-}
-
-.fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #140742;
+    font-weight: bold
 }
 
 /* section main
 ==================================================*/
-.text-green {
+.texto_home1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(53, 255, 104);
-    font-size: 80px;
 }
 
-.hero-area {
-    padding: 300px 0 200px;
-    position: relative; 
-}
-
-.bg-area {
+.fundo_cor1 {
     background-color: #140742;
-}
-
-#apresenta {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    width: 100%;
+    height: 600px;
 }
 
 .font-secondary {
     color: #726a84;
     font-weight: 300;
-    margin-top: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 23px;
+    line-height: 1.8;
 }
 
-.btn-transparent {
+.texto_link {
     color: rgb(53, 255, 104);
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
 }
 
-.ilustra_1 .glyphicon {
-    position: relative;
-    top: 100px;
-    left: 50%;
-    font-size: 25px;
-    color: rgb(53, 255, 104);
+#section_portfolio {
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 /* rodapé

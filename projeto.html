@@ -8,14 +8,18 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/projeto.css">
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
 
@@ -24,40 +28,36 @@
   <!-- inicio header -->
   <header class="fixed-top">
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark colornav" id="nav_botao">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="sobre.html">Sobre Mim</a></li>
-            <li><a href="projeto.html">Projeto</a></li>
-          </ul>
-        </div>
-
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html" id="texto_nav1">Sobre Mim</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="projeto.html" id="texto_nav2">Projeto<span class="sr-only">(Página
+                atual)</span></a>
+          </li>
+        </ul>
       </div>
-      </nav>
+    </nav>
   </header>
   <!-- fim header -->
 
   <!-- inicio da section com fundo -->
-  <section class="main-area bg-sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 mx-auto">
-          <h1 class="text-blue">Aplicativo<br>Mobile</h1>
-        </div>
+  <section>
+    <div class="position-relative text-center fundo_cor3">
+      <div class="col-md-12 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal texto_home3">Aplicativo</h1><br>
+        <h1 class="display-4 font-weight-bold texto_home3">Mobile</h1>
       </div>
     </div>
-
-    <div class="ilustra_3">
-      <a href="#produto_mobile">
-        <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-      </a>
-    </div>
-
   </section>
   <!-- fim da section com fundo -->
 
@@ -68,14 +68,17 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="special_description_img" id="produto_mobile">
-              <img src="img/app-mobile.png" alt="celular com a tela do aplicativo">
+              <img class="mx-auto d-block" src="img/app-mobile.png" alt="celular com a tela do aplicativo">
             </div>
           </div>
 
           <div class="col-lg-6 col-xl-5 ml-xl-auto">
             <div class="special_description_content">
               <h2>Protótipo de Aplicativo</h2>
-              <p class="texto_produto">O objetivo deste trabalho foi criar um protótipo de aplicativo de alta fidelidade, no qual o usuário deveria conseguir fazer trocas de ingressos para shows entre pessoas distintas e de forma totalmente digital. Para desenvolver todas as telas utilizei o software da Axure.</p>
+              <p class="texto_produto">O objetivo deste trabalho foi criar um protótipo de aplicativo de alta
+                fidelidade, no qual o usuário deveria conseguir fazer trocas de ingressos para shows entre pessoas
+                distintas e de forma totalmente digital. Para desenvolver todas as telas utilizei o software da Axure.
+              </p>
             </div>
           </div>
         </div>
@@ -90,36 +93,38 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-
           <div class="section-heading text-center">
             <h2>Descrição do Produto</h2>
-            <div class="line-shape"></div>
-          </div>
+          <div class="line-shape"></div>
         </div>
       </div>
 
       <div class="row">
-
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
           <div class="single-feature">
             <i class="ti-user" aria-hidden="true"></i>
             <h5>Anuncie !</h5>
-            <p>Foi criado a opção para o usuário criar um anúncio do ingresso que deseja trocar. Por exemplo, na impossibilidade de ir ao show que você tinha comprado ingresso, por meio do anúncio é possível vender seu ingresso, recuperando o dinheiro investido e ajudando outra pessoa que gostaria de ir ao show.</p>
+            <p>Foi criado a opção para o usuário criar um anúncio do ingresso que deseja trocar. Por exemplo, na
+              impossibilidade de ir ao show que você tinha comprado ingresso, por meio do anúncio é possível vender seu
+              ingresso, recuperando o dinheiro investido e ajudando outra pessoa que gostaria de ir ao show.</p>
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
           <div class="single-feature">
             <i class="ti-pulse" aria-hidden="true"></i>
             <h5>E muito mais...</h5>
-            <p>Também é possível buscar por ingressos através da localização, que filtra quais ingressos estão sendo anunciados de acordo com a casa de show que o ingresso foi cadastrado. Se necessário, pode-se enviar mensagem para o usuário anunciante, controlando todas as ações através das notificações e registro de histórico.</p>
+            <p>Também é possível buscar por ingressos através da localização, que filtra quais ingressos estão sendo
+              anunciados de acordo com a casa de show que o ingresso foi cadastrado. Se necessário, pode-se enviar
+              mensagem para o usuário anunciante, controlando todas as ações através das notificações e registro de
+              histórico.</p>
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
           <div class="single-feature">
             <i class="ti-dashboard" aria-hidden="true"></i>
-            <img class="img-responsive" src="img/telas-app.png" alt="protótipo das telas do aplicativo"/>
+            <img class="mx-auto d-block" src="img/telas-app.png" alt="protótipo das telas do aplicativo" />
           </div>
         </div>
       </div>

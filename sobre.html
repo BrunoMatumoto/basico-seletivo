@@ -8,14 +8,18 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/sobre.css">
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-  
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
 
@@ -24,54 +28,52 @@
   <!-- inicio header -->
   <header class="fixed-top">
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark colornav" id="nav_botao">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="sobre.html">Sobre Mim</a></li>
-            <li><a href="projeto.html">Projeto</a></li>
-          </ul>
-        </div>
-
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="sobre.html" id="texto_nav1">Sobre Mim<span class="sr-only">(Página
+                atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projeto.html" id="texto_nav2">Projeto</a>
+          </li>
+        </ul>
       </div>
-      </nav>
+    </nav>
   </header>
   <!-- fim header -->
 
-  <!-- inicio section com fundo -->
-  <section class="main-area bg-sec" id="parallax">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 mx-auto">
-          <h1 class="text-blue">Saiba mais,<br>Sobre mim !</h1>
-        </div>
+
+  <!-- inicio da section com fundo -->
+  <section>
+    <div class="position-relative text-center fundo_cor2">
+      <div class="col-md-12 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal texto_home2">Saiba mais,</h1><br>
+        <h1 class="display-4 font-weight-bold texto_home2">Sobre mim!</h1>
       </div>
     </div>
-
-    <div class="ilustra_2">
-      <a href="#font-perfil">
-        <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-      </a>
-    </div>
-
   </section>
+  <!-- fim da section com fundo -->
 
   <!-- inicio section perfil -->
   <section class="section_sobremim">
     <div class="container">
       <div class="row">
-        <div class="col-md-8" id="font-perfil">
-          <h4>Quem sou seu ?</h4><br>
+        <div class="col-md-8 font-secondary">
+          <h4>Quem sou seu ?</h4>
           <p>Descendente de portugueses por parte de mãe e japoneses por parte de pai, tenho como características ser:
             observador, paciente, comprometido e bem reservado. Formado em Tecnologia Produção Multimídia no Senac, me
             identifiquei muito com a parte de design gráfico, digital, ilustração e programação.</p>
           <p>Também possuo conhecimentos de arquitetura, apesar de não ter me formado na área, tenho experiência fazendo
             desenhos técnicos e projetos em 3d.</p><br>
-          <h4>Trabalhar na basico.com ?</h4><br>
+          <h4>Trabalhar na basico.com ?</h4>
           <p>
             Hoje buscando por uma oportunidade na área que me formei, pretendo aprender muito e me especializar na área
             de desenvolvimento web. Quero ter a formação de Desenvolvedor Front End e acredito que trabalhando na área
@@ -83,10 +85,9 @@
 
         <div class="col-md-4 text-center drag-lg-top">
           <div class="shadow-down mb-4">
-            <img src="img/bmatumoto.jpg" alt="foto do meu perfil"
-              class="img-fluid w-100 rounded-lg border-thick border-white">
+            <img src="img/bmatumoto.jpg" alt="minha foto do perfil" class="img-fluid w-100 rounded-lg">
           </div>
-          <h4>Bruno Matumoto</h4>
+          <h4 class="fonte_perfil">Bruno Matumoto</h4>
         </div>
       </div>
     </div>
@@ -107,56 +108,59 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
-          <img src="img/tropical.jpg" class="card-img-top" alt="foto de um céu azul e árvore verde">
-          <div class="card-body">
-            <h4 class="card-title">Dia de Sol</h4>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <div class="text-center mb-4 moldura">
+            <img src="img/tropical.jpg" class="card-img-top" alt="foto de um céu azul e árvore verde">
+            <div class="card-body">
+              <h4 class="card-title">Dia de Sol</h4>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
-          <img src="img/stranger.jpg" class="card-img-top" alt="capa de divulgação da série Stranger Things">
-          <div class="card-body">
-            <h4 class="card-title">Stranger Things</h4>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <div class="text-center mb-4 moldura">
+            <img src="img/stranger.jpg" class="card-img-top" alt="capa de divulgação da série Stranger Things">
+            <div class="card-body">
+              <h4 class="card-title">Stranger Things</h4>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
-          <img src="img/brawlstars.jpg" class="card-img-top" alt="Crow, personagem do jogo Brawl Stars">
-          <div class="card-body">
-            <h4 class="card-title">Brawl Stars</h4>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <div class="text-center mb-4 moldura">
+            <img src="img/brawlstars.jpg" class="card-img-top" alt="Crow, personagem do jogo Brawl Stars">
+            <div class="card-body">
+              <h4 class="card-title">Brawl Stars</h4>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
-          <img src="img/timao.jpg" class="card-img-top" alt="torcida do Corinthians">
-          <div class="card-body">
-            <h4 class="card-title">Corinthians</h4>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <div class="text-center mb-4 moldura">
+            <img src="img/timao.jpg" class="card-img-top" alt="torcida do Corinthians">
+            <div class="card-body">
+              <h4 class="card-title">Corinthians</h4>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
-          <img src="img/clash.jpg" class="card-img-top" alt="capa de divulgação do jogo Clash Royale">
-          <div class="card-body">
-            <h4 class="card-title">Clash Royale</h4>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <div class="text-center mb-4 moldura">
+            <img src="img/clash.jpg" class="card-img-top" alt="capa de divulgação do jogo Clash Royale">
+            <div class="card-body">
+              <h4 class="card-title">Clash Royale</h4>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
-          <img src="img/warriors.jpg" class="card-img-top" alt="Curry e Thompson, jogadores do time de basquete Golden State Warriors">
-          <div class="card-body">
-            <h4 class="card-title">Golden State Warriors</h4>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <div class="text-center mb-4 moldura">
+            <img src="img/warriors.jpg" class="card-img-top"
+              alt="Curry e Thompson, jogadores do time de basquete Golden State Warriors">
+            <div class="card-body">
+              <h4 class="card-title">Golden State Warriors</h4>
+            </div>
           </div>
         </div>
       </div>
